@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<!-- linking to style sheets, first bootstrap CDN, then additional styling -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- linking to the jQuery CDN and JavaScript file -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="column col col-xs-12 jumbotron" id="title">
+				<div><span>Multiplayer Rock Paper Scissors Game!</span></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="column col col-xs-5 pull-left player" id="player-left">
+				<span id="left-name">Left-Side Player Name</span>
+
+				<button class="rock">Rock</button>
+				<button class="paper">Paper</button>
+				<button class="scissors">Scissors</button>
+			</div>
+
+			<div class="column col col-xs-2 pull-left player" id="metrics">
+				<span id="timer"></span>
+
+				<span id="player-stats">
+					<span>Wins: <span></span></span>
+					<span>Losses: <span></span></span>
+					<span>Ties: <span></span></span>
+					<span>No Choice: <span></span></span>
+					<span>Total Played: <span></span></span>
+				</span>
+
+				<span>Current # of Users on Page <span id="users">1111</span></span>
+
+			</div>
+
+			<div class="column col col-xs-5 pull-right player" id="player-right">
+				<span id="right-name">Right-Side Player Name</span>
+
+				<button class="rock">Rock</button>
+				<button class="paper">Paper</button>
+				<button class="scissors">Scissors</button>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="column col col-xs-12 jumbotron" id="chat">
+				<div><span>Multiplayer Rock Paper Scissors Game!</span></div>
+			</div>
+		</div>
+	
+</body>
+</html>

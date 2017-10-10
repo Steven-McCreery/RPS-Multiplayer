@@ -2,3 +2,24 @@
 	width: 100% !important;
 }
 
+.jumbotron {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.well {
+	padding-bottom: 5px;
+	height: 300px;
+}
+
+#chat {
+	margin-bottom: 5px;
+}
+
+#chat {
+	height: 100%;
+}
+
+#chat-log {
+	height: 87.5%;
+}
